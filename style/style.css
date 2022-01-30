@@ -1,20 +1,108 @@
 *{
-    margin: auto;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+.container{
+    width: 71%;
+    margin: auto;
+}
 .header{
-    background: transparent;
+    display: flex;
+    background: none;
     color:white;
+    z-index: 2;
+    position: absolute;
+    left: 15%;
+    align-items: center;
+}
+.header-left{
+    width: 50%;
+    display: flex;
+}
+.header-left a{
+    margin: 0;
+}
+.header-right{
+    width: 50%;
+}
+.header-left img{
+    width: 100px;
+    height: 70px;
+}
+.header-right ul{
+    display: flex;
+}
+.header-right ul li{
+    list-style: none;
+    margin: 0;
+}
+.header-right ul li a{
+    padding: 20px 15px;
+    color: white;
+    text-decoration: none;
+    margin: 9px;
 }
 .hero{
-}
-.background{
-    background-color: rgba(0, 0, 0, 0.705);
     background-image: url(../images/bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
     height: 100vh;
-    
+    position: relative;
+}
+.hero-contant{
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 1;
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+.hero-detils{
+    display: table-cell;
+    padding-left: 15%;
+    vertical-align: middle;
+}
+.hero-detils h5{
+    color: red;
+    font-size: 14px;
+    letter-spacing: 5px;
+}
+.hero-detils h1{
+    color: white;
+    padding: 13px 0;
+    font-size: 100px;
+    font-family: 'Cormorant Garamond', serif;
+}
+.hero-detils h3{
+    color: white;
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+.btn-corve{
+    margin-top: 30px;
+    position: relative;
+}
+.btn{
+    background: none;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 12px 30px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.btn:hover{
+    transition-duration: 0.8s;
+    background: white;
+    color: #000;
+}
+.about{
+    display: flex;
+    height: 60vh;
+}
+.about-left{
+    width: 50%;
+}
+.about-right{
+    width: 50%;
 }
