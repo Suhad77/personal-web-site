@@ -258,3 +258,15 @@ a{
     font-size: 18px;
     color: #555;
 }
+.portfolio-detiles{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(auto-fit,minmax(25rem,1fr));
+    gap: 10px;
+}
+.portfolio-item img{
+height: 450px;
+}
+.portfolio-detiles a img{
+    width: 100%;
+}
