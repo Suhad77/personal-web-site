@@ -42,7 +42,7 @@ a{
     list-style: none;
 }
 .header-right a{
-    padding: 25px;
+    padding: 15px;
     margin: 2px;
     color: #fff;
 }
@@ -102,7 +102,7 @@ a{
     background: #ffffff;
 }
 .about{
-    height: 65vh;
+    height: 40vh;
     display: block;
     position: relative;
     margin-top: 80px;
@@ -220,21 +220,19 @@ a{
 }
 
 #portfolio{
-    height: 100vh;
+    height: 80vh;
 }
-.portfolio-heading{
-    display: flex;
-    flex-direction: column;
+.heading{
     padding: 35px 0;
     text-align: center;
 }
-.portfolio-heading h2{
+.heading h2{
     padding: 15px 0;
     font-size: 46px;
     font-weight: 700;
     text-transform: uppercase;
 }
-.portfolio-heading p{
+.heading p{
     font-size: 25px;
     color: #555;
 }
@@ -256,4 +254,14 @@ a{
 }
 .portfolio-item2{
     width: 33.33%;
+}
+.skil-box{
+    display: flex;
+}
+.skils{
+    width: 20%;
+}
+.skil-img{
+    width: 100%;
+    
 }
