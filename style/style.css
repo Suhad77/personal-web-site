@@ -259,9 +259,24 @@ a{
     display: flex;
 }
 .skils{
-    width: 20%;
+    border: 1px solid rgb(74, 204, 255);
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    background: #ddd;
+    margin: 10px;
 }
 .skil-img{
-    width: 100%;
-    
+    width: 50%;
+    /* border-radius: 50%; */
+    display: flex;
+}
+.skils h3{
+    padding-top: 10px;
+}
+#tailwind{
+    width: 80%;
 }
